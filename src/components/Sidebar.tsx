@@ -4,7 +4,7 @@ import clsx from "clsx";
 const Sidebar = () => {
   const location = useLocation();
   return (
-    <div className="flex flex-row md:flex-col bg-primary p-2 gap-2 w-full md:w-[15%] ">
+    <div className="flex flex-row flex-wrap md:flex-col bg-primary p-2 gap-2 w-full md:w-[15%] ">
       {routes.map((route) => {
         return (
           <Link
